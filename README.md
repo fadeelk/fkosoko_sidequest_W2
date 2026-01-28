@@ -6,25 +6,26 @@ GBDA302 Week 2 Example 3: Platforms (AABB Collisions)
 
 ## Authors
 
-Karen Cochrane and David Han
+Fadeel Kosoko
 
 ---
 
 ## Description
 
-Adds several rectangular platforms. The blob is drawn as a noisy circle but collides using a simple axis-aligned bounding box (AABB). X and Y are resolved separately to keep behaviour predictable and teachable.
+The blob traverses fromplatform to platform while expressing the emotion of love.
 
 ---
 
-## Learning Goals
+## Setup and interact instructions:
 
-Learning Goals:
-
-- Convert a circular sprite to an AABB for collision
-- Implement overlap test and push-out resolution
-- Manage grounded state only when landing on top faces
+- Use directional keys to move the blob around (W, A, D or up, left, right)
 
 ---
+
+## Iteration notes
+
+- Changed the colour of the blob to light pink
+- Added a trail of tiny hearts
 
 ## Assets
 
@@ -34,6 +35,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+This was code was copied from the example and I used AI to enhance it
 
 ---
